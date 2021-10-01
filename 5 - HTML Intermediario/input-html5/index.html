@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>Novos tipos de INPUT para formulários que vieram com o HTML5</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+
+	<body>
+
+		<form method="GET" action="">
+
+			<!-- ESTE NÃO FUNCIONA DIREITO NO SAFARI DO IPHONE -->
+			<input type="color" name="cor"> Selecionar cor
+
+			<br><br>
+			<!-- <input type="date" name="data" max="2021-03-10"> -->
+			<input type="datetime-local" name="data" max="2021-03-10"> Data/Hora
+			
+			<br><br>
+			<input type="file" name="arquivo">
+
+			<br><br>
+			<input type="number" name="numérico" min="5" max="10"> Inserir números
+
+			<br><br>
+			<input type="range" name="intervalo" min="5" max="10" value="5"> Barra de Slider
+
+			<br><br>
+			<input type="tel" name="telefone"> Número de telefone
+
+			<br><br>
+			<input type="email" name="email"> Email
+
+			<br><br>
+			<input type="submit">
+
+		</form>
+
+	</body>
+
+</html>

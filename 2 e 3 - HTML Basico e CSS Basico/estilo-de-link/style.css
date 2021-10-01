@@ -1,0 +1,17 @@
+.links{
+	font-size: 30px;
+	text-decoration: none;
+	color: #bc2035;
+	/*cursor: crosshair;*/
+	/*background: #bc2035;*/
+	padding: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-radius: 20px;
+	border: 2px solid #bc2035;
+}
+
+.links:{
+	background: #bc2035;
+	color: white;
+}

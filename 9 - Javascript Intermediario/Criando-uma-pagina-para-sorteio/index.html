@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+
+        //SORTEIO DE NÚMEROS
+
+        function sortear() {
+            let np = 100;
+
+            // Explicando a lógica:
+            // 'Math.random()' vai gerar números aleatórios até 0.9999
+            // 'Math.round()' vai arredondar os numeros aleatórios
+            // Então vai ficar: Numero do sorteio (ns) = Números aleatórios (arredondados) * Número de pessoas (np).
+            let ns = Math.round(Math.random() * np);
+
+            document.getElementById("d").innerHTML = ns;
+        }
+
+        
+        
+        // SORTEIO DE NOMES
+        
+        // let pessoas = ["Adiel", "Igor", "José", "Pamela", "Joana"];
+        
+        // function sortear() {
+        //     let np = pessoas.length; // Tamanho do meu array com os nomes das pessoas
+
+        //     // Explicando a lógica:
+        //     // 'Math.random()' vai gerar nomes aleatórios
+        //     // 'Math.floor()' vai garantir que vai ficar abaixo de 4 (por exemplo)
+        //     // Então vai ficar: Nome do sorteio (ns) = Números aleatórios (arredondados) * Número de pessoas (np).
+        //     let ns = Math.floor(Math.random() * np);
+
+        //     document.getElementById("d").innerHTML = pessoas[ns];
+        // }
+
+    </script>
+
+</head>
+
+<body>
+
+    <h1 id="d"></h1>
+
+    <button onclick="sortear()">Sortear</button>
+    
+</body>
+
+</html>

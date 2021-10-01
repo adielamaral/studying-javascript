@@ -1,0 +1,7 @@
+p{
+	font-family: Times, Arial, Helvetica, sans-serif; /*familia da fonte, Comic Sans MS...*/
+	font-style: normal; /*estilo de fonte, ex: negrito, itálico...*/
+	font-size: 25px; /*tamanh da fonte*/
+	font-weight: 600; /*negrito*/
+	font-variant: small-caps; /*Letra maiúscula da palavra se destaca*/
+}

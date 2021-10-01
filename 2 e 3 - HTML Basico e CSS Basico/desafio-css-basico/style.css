@@ -1,0 +1,35 @@
+body{
+	background-color: black;
+}
+
+.card{
+	font-family: 'Roboto Mono', monospace;
+	background: url(assets/backgorund.png) no-repeat;
+	box-sizing: border-box;
+	width: 400px;
+	height: 200px;
+	padding: 1px 20px;
+	background-size: cover;
+	margin: auto;
+	margin-top: 10%;
+	/*padding: 1px 20px;*/
+}
+
+a{
+	text-decoration: none;
+	color: black;
+	display: block;
+	width: 116px; /*Ajeitar a largura do link*/
+}
+
+.instagram{
+	list-style-image: url(assets/Insta.png);
+}
+
+.twitter{
+	list-style-image: url(assets/Twitter.png);
+}
+
+.youtube{
+	list-style-image: url(assets/Youtube.png);
+}

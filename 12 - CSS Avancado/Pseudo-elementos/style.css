@@ -1,0 +1,47 @@
+p::first-line{
+    color: blue;
+}
+
+p::first-letter{
+    color: red;
+    font-size: 5rem;
+}
+
+/* li{ */
+    /* margin-left: 200px; */
+    /* list-style: none; */
+    /* list-style-image: url(./image/icon.png); */
+/* } */
+
+li::before{
+    content: '';
+    /* color: blue;
+    font-size: 20px; */
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-image: url(./image/icon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-right: 10px;
+}
+
+li::after{
+    content: '';
+    /* color: blue;
+    font-size: 20px; */
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-image: url(./image/icon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-left: 10px;
+}
+
+p::selection{
+    background-color: yellow;
+    color: orange;
+}

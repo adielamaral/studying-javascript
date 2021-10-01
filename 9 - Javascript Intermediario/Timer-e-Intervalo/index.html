@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timer e Intervalo</title>
+
+
+    <script>
+        
+        // EXEMPLO UTILIZANDO O setTimeout
+        
+        // function mudarCor() {
+
+        //     let h = document.getElementsByTagName("h1")[0];
+        //     h.style.color = "blue";
+
+        // }
+
+        // function mudarTexto() {
+
+        //     let h = document.getElementsByTagName("h1")[0];
+        //     h.innerHTML = "Novo Título";
+
+        //     // setTimeout(mudarCor, 3000);
+
+        // }
+
+
+
+        // EXMPLO COM O setInterval
+
+        // var numero = 0;
+
+        // function atualizarTexto() {
+
+        //     let h = document.getElementsByTagName("h1")[0];
+        //     h.innerHTML += " " + numero;
+        //     numero++;
+
+        // }
+
+        // function mudarTexto() {
+
+        //     setInterval(atualizarTexto, 3000);
+
+        // }
+
+
+
+        // OUTRO EXEMPLO
+
+        var numero = 0;
+
+        var interval;
+
+        function atualizarTexto() {
+
+            let h = document.getElementsByTagName("h1")[0];
+            h.innerHTML += " " + numero;
+            numero++;
+
+        }
+
+        function iniciar() {
+
+            interval = setInterval(atualizarTexto, 1000);
+
+        }
+
+        function parar() {
+
+            clearInterval(interval);
+
+        }
+
+    </script>
+
+</head>
+
+<body>
+
+    <h1>Título</h1>
+    <input onclick="iniciar()" type="submit" value="Iniciar">
+    <input onclick="parar()" type="submit" value="Parar">
+    
+</body>
+
+</html>

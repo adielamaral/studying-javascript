@@ -1,0 +1,157 @@
+<!--ESTRUTURA BÁSICA DO HTML-->
+<!DOCTYPE html> <!--HTML5-->
+<html>
+	<head>
+		<title>Uma simples declaração</title> <!--Título-->
+		<meta charset="utf-8"> <!--Tag 'meta' com parâmetro para ajeitar os caracteres-->
+
+		<link href="style.css" rel="stylesheet">
+
+		<!--CSS interno-->
+		<!--<style>
+			ul{
+				color: red;
+			}
+		</style>-->
+
+	</head>
+
+	<body> <!--Aqui começa o conteúdo da minha página-->
+
+		<a href="#cadastro">Cadastro de Usuários</a>
+
+		<h1 id="titulo">Uma simples declaração</h1> <!--Título-->
+		<h2>De Adiel para a pessoa mais incrível deste planeta</h2> <!--Sub-título-->
+		<!--Inicio do meu parágrafo (com marcação utilizando a tag 'mark', deixando a fonte com um efeito um pouco menor 'small', fazendo um risco com a tag 'del' e as tags 'sup' e 'sub' que deixam um pouco abaixo e um pouco acima o texto)-->
+		<p class="texto">Faltam <small>39 dias e um pouco mais de 936 horas</small> para eu finalmente poder te ver novamente. Já consigo imaginar o dia <sup>18/10</sup>, 5 horas da manhã, eu soando frio, olhando no relógio do celular a todo minuto, olhando no telão a hora da chegada do seu voo, todo nervoso <del>(bonito e sensual kk)</del>, você saindo pelo portão de desembarque do aeroporto, eu emocionado indo ao seu encontro te abraçando e te amando.
+		<mark>Amor, o seu amor faz de mim a pessoa mais feliz e realizada desse mundo.</mark> Eu nem preciso dizer que eu conto os dias as semanas e os meses <sub>(creio que você faz isso até melhor do que eu haha)</sub>, eu morro de saudade, já sonho com esse dia que eu descrevi logo acima meio que imperfeitamente, pois sei que as emoções nesse dia vão estar a MIL. <mark>Você se transformou em algo mais do que minha namorada, é parte da minha vida, parte dos meus planos.</mark> Eu me sinto feliz pelo simples fato de saber que você existe e uma hora ou outra vai chegar aqui, a gente vai ficar juntos e eu vou poder te encher de beijos.</p> <!--Fim do meu parágrafo-->
+		<!--Parágrafo em itálico utlizando a tag 'em' (ênfase)-->
+		<p id="musica"><em>♪ Você é a razão da minha felicidade 
+   		Não vá dizer que eu não sou a sua cara-metade
+   		Meu amor, por favor, vem viver comigo
+   		O seu colo é o meu abrigo ♫</em></p> 
+   		<!--Parágrafo em negrito utilizando a tag 'strong'(importancia maior que a tag 'b' e sublinhando a ultima frase com a tag 'ins')-->
+		<p class="texto"><strong>Obrigado por me ajudar a ser uma pessoa melhor, obrigado por estar comigo sempre que eu preciso e quando eu mais preciso, mesmo que de longe fisicamente. 
+		<ins>Você é tudo pra mim, eu te amo muito!</ins></strong></p> 
+
+		<!--tag para criar link para outra página-->
+		<a href="sobre.html">Sobre</a>
+
+		<br><br><br> <!--QUEBRA DE LINHA, foram utilizadas 3 tags 'br' para o espaçamento desejado-->
+
+		<!--Tag para adicionar imagens-->
+		<img src="https://fesofap.portaliap.org/wp-content/uploads/2018/02/biblia.png" alt="Páginas da bíblia formando um coração" width=300>
+		<!--Adicionando uma imagem com link-->
+		<a href="https://fesofap.portaliap.org/conteudo/vida-devocional/reflexoes/biblia-carta-de-amor-de-um-deus-misericordioso/">
+
+		<img src="imagens/link-da-imagem.jpg" alt="sobre" height=80>
+
+		</a>
+
+
+		<h2>Lista de itens</h2>
+		<ul id="lista"> <!--Criando uma lista do tipo: Desordenada, com CSS INLINE style="color: red;"-->
+			<li>Item 1</li>
+			<li>Item 2</li>
+			<li>Item 3</li>
+		</ul>
+
+		<div id="ranking"> <!--Começo tag div com id-->
+
+		<h2>Ranking de contribuidores</h2>
+		<ol> <!--Criando uma lista do tipo: Ordenada-->
+			<li>Marcela</li>
+			<li>João</li>
+			<li>Marcos</li>
+		</ol>
+
+
+		<table id="cadastro"> <!--Criando uma tabela-->
+			<tr> <!--Criando a linha da tabela com a tag 'tr'(table row)-->
+				<th>Nome</th> <!--Cabeçalho da tabela-->
+				<th>Telefone</th>
+				<th>Email</th>
+			</tr>
+			<tr>
+				<td>Adiel</td> <!--Adicionar dados da tabela, tag: 'td' (table data)-->
+				<td>(91)98446-9808</td>
+				<td>adielnfs@gmail.com</td>
+			</tr>
+			<tr>
+				<td>Joana</td>
+				<td>(91)98888-9999</td>
+				<td>joana123@hotmail.com</td>
+			</tr>
+
+		</table>
+
+		</div> <!--Fechando tag div-->
+
+		<br>
+
+		<h2>Unidades absolutas</h2>
+		<table>
+			<tr>
+				<th>Unidade</th>
+				<th>Valor</th>
+				<th>Exemplo</th>
+			</tr>
+			<tr>
+				<td>cm (Centímetros)</td>
+				<td align="center">1cm</td>
+				<td align="center"><div id="cm"></div></td>
+			</tr>
+			<tr>
+				<td>mm (Milímetros)</td>
+				<td align="center">1mm</td>
+				<td align="center"><div id="mm"></div></td>
+			<tr>
+				<td>in (Polegadas)</td>
+				<td align="center">1in</td>
+				<td align="center"><div id="in"></div></td>
+			</tr>
+			<tr>
+				<td>px (Pixel)</td>
+				<td align="center">10px</td>
+				<td align="center"><div id="px"></div></td>
+			</tr>
+			<tr>
+				<td>pt (Ponto)</td>
+				<td align="center">10pt</td>
+				<td align="center"><div id="pt"></div></td>
+			</tr>
+			<tr>
+				<td>pc (Pica)</td>
+				<td align="center">1pc</td>
+				<td align="center"><div id="pc"></div></td>
+			</tr>
+		</table>
+
+		<br>
+
+		<div id="base"></div>
+
+		<div id="container">
+			<div id="conteudo">
+				Aprendendo a utlizar a tag 'margin'
+			</div>
+		</div>
+
+		<div id="base2"></div>
+
+		<div id=padding>
+			Aprendendo a utilizar a tag 'padding'
+		</div>
+
+
+
+
+
+
+
+
+
+
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+	</body>
+</html>

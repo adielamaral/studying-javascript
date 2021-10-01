@@ -1,0 +1,89 @@
+#titulo{
+	color: DeepSkyBlue;
+}
+
+#musica{
+	color: #ffffff;
+
+	background-image: url(Fundos/backmusic.jpg);
+}
+
+.texto{
+	color: rgb(165,42,42);
+
+	background-color: rgb(206,243,185);
+}
+
+#lista{
+	color: rgb(255,255,255);
+
+	background-image: url(Fundos/backlist.jpg);
+	/*background-repeat: no-repeat;*/
+	/*background-size: cover;*/
+	background-attachment: fixed;
+}
+
+#ranking{
+	background-image: url(Fundos/backabstract.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+#cm{
+	background-color: blue;
+	width: 1cm;
+	height: 1cm;
+}
+
+#mm{
+	background-color: red;
+	width: 1mm;
+	height: 1mm;
+}
+
+#in{
+	background-color: blue;
+	width: 1in;
+	height: 1in;
+}
+
+#px{
+	background-color: red;
+	width: 10px;
+	height: 10px;
+}
+
+#pt{
+	background-color: red;
+	width: 10pt;
+	height: 10pt;
+}
+
+#pc{
+	background-color: red;
+	width: 1pc;
+	height: 1pc;
+}
+
+#base{
+	height: 10px;
+	background-color: red;
+}
+
+#container{
+	background-color: blue;
+	color: white;
+	margin: 10px;
+}
+
+#base2{
+	height: 10px;
+	background-color: red;
+}
+
+#padding{
+	background-color: blue;
+	color: white;
+	padding: 10px;
+}

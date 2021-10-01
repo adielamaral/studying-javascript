@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	
+	<head>
+		<title>Position</title>
+		<meta charset="utf-8">
+		
+		<style type="text/css">
+
+			body{
+				font-size: 1.2rem;
+			}
+
+			.sticky{
+				position: sticky;
+				top: 0;
+			}
+
+			.quadrado{
+				width: 100px;
+				height: 100px;
+				display: inline-block;
+			}
+
+			.retangulo{
+				width: 200px;
+				height: 500px;
+				margin-top: 10px;
+				overflow: auto;
+			}
+
+			.bg-red{
+				background-color: red;
+			}
+
+			.bg-blue{
+				background-color: blue;
+			}
+
+			.bg-green{
+				background-color: green;
+			}
+
+		</style>
+	</head>
+
+	<body>
+
+		<div class="bg-blue retangulo">
+
+			<div class="quadrado bg-red"></div>
+			<div class="quadrado bg-red"></div>
+			<div class="quadrado bg-green sticky"></div>
+			<div class="quadrado bg-red"></div>
+			<div class="quadrado bg-red"></div>
+			<div class="quadrado bg-red"></div>
+			<div class="quadrado bg-red"></div>
+			<div class="quadrado bg-red"></div>
+			<div class="quadrado bg-red"></div>
+			<div class="quadrado bg-red"></div>
+
+		</div>
+
+	</body>
+
+	</html>

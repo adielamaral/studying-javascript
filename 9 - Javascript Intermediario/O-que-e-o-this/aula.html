@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O que é o This</title>
+</head>
+
+<body>
+
+    <h1 id="t1">título 1</h1>
+
+    <h2 id="t2">outro título qualquer 2</h2>
+
+    <script>
+
+        let t1 = document.getElementById("t1");
+        let t2 = document.getElementById("t2");
+
+        t1.onclick = colocarEmMaiusculo;
+        t2.onclick = colocarEmMaiusculo;
+
+        function colocarEmMaiusculo() {
+            this.innerHTML = this.innerHTML.toUpperCase();
+        }
+
+    </script>
+    
+</body>
+
+</html>

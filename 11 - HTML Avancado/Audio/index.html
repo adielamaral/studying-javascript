@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio</title>
+
+    <style>
+
+        .container{
+            width: 640px;
+            height: 480px;
+            background-image: url(./Assets/Imagens/Missao-Impossivel.jpg);
+            background-size: cover;
+        }
+
+        #music{
+            width: 640px;
+            height: 480px;
+        }
+
+        .controls{
+            background-color: rgba(119, 115, 115, 0.513);
+            opacity: 0%;
+            width: 0%;
+        }
+
+        .controls:hover{
+            transition: width 2s;
+            opacity: 100%;
+            width: 40%;
+            height: 100%;
+            border-top-right-radius: 80px;
+            border-bottom-right-radius: 80px;
+        }
+
+        .btn{
+            margin: auto;
+            position: relative;
+            top: 8%;
+            display: block;
+            width: 80px;
+            cursor: pointer;
+        }
+
+        .btn:hover{
+            width: 110px;
+            background-color: rgba(255, 255, 255, 0.404);
+            transition-duration: 0.5s;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="controls">
+            <img class="btn" onclick="play()" src="./Assets/Icons/play.png" type="image/png">
+            <img class="btn" onclick="pause()" src="./Assets/Icons/pause.png" type="image/png">
+            <img class="btn" onclick="stop()" src="./Assets/Icons/stop.png" type="image/png">
+            <img class="btn" onclick="adv15()" src="./Assets/Icons/adv15.png" type="image/png">
+            <img class="btn" onclick="back15()" src="./Assets/Icons/back15.png" type="image/png">
+            <audio id="music">
+                <source src="./Assets/Audios/AudioOGG.ogg" type="audio/ogg">
+                <source src="./Assets/Audios/AudioMP3.mp3" type="audio/mpeg">
+            </audio>
+        </div>
+    </div>
+    
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
